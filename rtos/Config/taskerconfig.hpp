@@ -2,10 +2,8 @@
 // Created by by Sergey Kolody  on 04.06.2020.
 
 #pragma once
-#include "teststates.hpp" // for targetThread, myThread1, myThread2,
-#include "idletask.hpp"   // for idleTask
-#include "tasker.hpp"     // for Tasker
+#include "idletask.hpp"    // for idleTask
+#include "tasker.hpp"      // for Tasker
+#include "teststates.hpp"  // for targetThread, myThread1, myThread2,
 
-class myTasker: public Tasker<targetThread, myThread1, myThread2, idleTask>
-{
-};
+class myTasker : public Tasker<targetThread, myThread1, myThread2, idleTask> {};

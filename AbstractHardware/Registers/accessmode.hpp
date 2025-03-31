@@ -4,7 +4,7 @@
 
 #pragma once
 
-//Режим доступа к регистрам
+// Режим доступа к регистрам
 struct NoAccess {};
 struct WriteMode {};
 struct ReadMode {};

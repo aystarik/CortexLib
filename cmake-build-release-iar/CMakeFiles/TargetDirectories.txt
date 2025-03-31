@@ -1,3 +1,0 @@
-C:/GitHub/CortexLib/cmake-build-release-iar/CMakeFiles/Registers.dir
-C:/GitHub/CortexLib/cmake-build-release-iar/CMakeFiles/edit_cache.dir
-C:/GitHub/CortexLib/cmake-build-release-iar/CMakeFiles/rebuild_cache.dir

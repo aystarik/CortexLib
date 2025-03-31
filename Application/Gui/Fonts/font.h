@@ -1,7 +1,7 @@
 /*******************************************************************************
 *  FILENAME: font5_8.h
 *
-*  DESCRIPTION: 
+*  DESCRIPTION:
 *
 *  Copyright (c) 2015 by South Ural State Universaty
 *  Author: Sergey Kolody*
@@ -9,6 +9,7 @@
 #ifndef FONT_H
 #define FONT_H
 
+#include <cstdint>
 // !FIXME
 typedef struct
 {
@@ -16,7 +17,7 @@ typedef struct
   std::uint16_t index;
 }tFontDescriptor;
 
-typedef struct 
+typedef struct
 {
   std::uint8_t height;		// ������ ��������
   std::uint8_t firstIndex;

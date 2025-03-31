@@ -5,8 +5,8 @@
 #ifndef REGISTERS_CRITICALSECTIONCONFIG_HPP
 #define REGISTERS_CRITICALSECTIONCONFIG_HPP
 
-#include "criticalsectionguard.hpp"  //for CriticalSectionGuard
-#include "criticalsectiondefault.hpp" //for CriticalSectionDefault
+#include "criticalsectiondefault.hpp"  //for CriticalSectionDefault
+#include "criticalsectionguard.hpp"    //for CriticalSectionGuard
 
-using CriticalSection = CriticalSectionGuard<CriticalSectionDefault> ;
-#endif //REGISTERS_CRITICALSECTIONDEFAULTCONFIG_HPP
+using CriticalSection = CriticalSectionGuard<CriticalSectionDefault>;
+#endif  // REGISTERS_CRITICALSECTIONDEFAULTCONFIG_HPP

@@ -5,14 +5,8 @@
 #ifndef REGISTERS_MEMORYOBJECT_HPP
 #define REGISTERS_MEMORYOBJECT_HPP
 
-struct RomObject
-{
+struct RomObject {};
 
-};
+struct RamObject {};
 
-struct RamObject
-{
-
-};
-
-#endif //REGISTERS_MEMORYOBJECT_HPP
+#endif  // REGISTERS_MEMORYOBJECT_HPP

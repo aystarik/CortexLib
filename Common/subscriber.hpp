@@ -5,10 +5,10 @@
 #ifndef REGISTERS_SUBSRIBER_HPP
 #define REGISTERS_SUBSRIBER_HPP
 
-struct ISubscriber
-{
-  constexpr ISubscriber() = default; ;
-  virtual void Update() const  = 0;
+struct ISubscriber {
+  constexpr ISubscriber() = default;
+  ;
+  virtual void Update() const = 0;
 };
 
-#endif //REGISTERS_SUBSRIBER_HPP
+#endif  // REGISTERS_SUBSRIBER_HPP

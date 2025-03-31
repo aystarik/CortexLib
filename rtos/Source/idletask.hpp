@@ -3,27 +3,18 @@
 
 #pragma once
 
-#include "taskbase.hpp" // for TaskBase
+#include "taskbase.hpp"  // for TaskBase
 
+struct IdleTask : public TaskBase<IdleTask> {
+  constexpr IdleTask() {}
 
-struct IdleTask: public TaskBase<IdleTask>
-{
-	constexpr IdleTask()
-	{
-
-	}
-
-	void OnEvent() const
-	{
-		for (int i = 0; i < 100000; i++)
-			{
-			asm volatile("");
-			}
-	}
-
+  void OnEvent() const {
+    for (int i = 0; i < 100000; i++) {
+      asm volatile("");
+    }
+  }
 };
 
 inline constexpr IdleTask
 
-idleTask;
-
+    idleTask;

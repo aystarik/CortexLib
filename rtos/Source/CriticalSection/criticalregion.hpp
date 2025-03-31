@@ -3,9 +3,7 @@
 
 #pragma once
 
-class CriticalRegion
-{
-	CriticalRegion();
-	~CriticalRegion();
-
+class CriticalRegion {
+  CriticalRegion();
+  ~CriticalRegion();
 };

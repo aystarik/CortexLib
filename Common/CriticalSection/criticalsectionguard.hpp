@@ -6,33 +6,20 @@
 #define REGISTERS_CRITICALSECTIONGUARD_HPP
 
 #include <cassert>
-#include "criticalsectionguard.hpp" //for CriticalSectionGuard
+
+#include "criticalsectionguard.hpp"  //for CriticalSectionGuard
 
 template <typename T>
-struct CriticalSectionGuard
-{
-  CriticalSectionGuard()
-  {
-    T::Lock() ;
-  }
+struct CriticalSectionGuard {
+  CriticalSectionGuard() { T::Lock(); }
 
-  ~CriticalSectionGuard()
-  {
-    T::UnLock() ;
-  }
+  ~CriticalSectionGuard() { T::UnLock(); }
 };
 
 template <>
-struct CriticalSectionGuard<int>
-{
-  CriticalSectionGuard()
-  {
+struct CriticalSectionGuard<int> {
+  CriticalSectionGuard() {}
 
-  }
-
-  ~CriticalSectionGuard()
-  {
-
-  }
+  ~CriticalSectionGuard() {}
 };
-#endif //REGISTERS_CRITICALSECTIONGUARD_HPP
+#endif  // REGISTERS_CRITICALSECTIONGUARD_HPP

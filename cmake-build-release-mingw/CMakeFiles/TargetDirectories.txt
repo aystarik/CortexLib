@@ -1,3 +1,0 @@
-C:/GitHub/CortexLib/cmake-build-release-mingw/CMakeFiles/Registers.dir
-C:/GitHub/CortexLib/cmake-build-release-mingw/CMakeFiles/edit_cache.dir
-C:/GitHub/CortexLib/cmake-build-release-mingw/CMakeFiles/rebuild_cache.dir

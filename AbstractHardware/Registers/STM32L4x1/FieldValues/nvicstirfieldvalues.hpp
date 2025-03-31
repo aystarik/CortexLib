@@ -1,20 +1,18 @@
 /*******************************************************************************
-* Filename      : nvicstirfieldvalues.hpp
-*
-* Details       : Enumerations related with NVIC_STIR peripheral. This header
-*                 file is auto-generated for STM32L4x1 device.
-*
-*
-*******************************************************************************/
+ * Filename      : nvicstirfieldvalues.hpp
+ *
+ * Details       : Enumerations related with NVIC_STIR peripheral. This header
+ *                 file is auto-generated for STM32L4x1 device.
+ *
+ *
+ *******************************************************************************/
 
 #if !defined(NVICSTIRENUMS_HPP)
 #define NVICSTIRENUMS_HPP
 
-#include "fieldvalue.hpp"     //for FieldValues 
+#include "fieldvalue.hpp"  //for FieldValues
 
-template <typename Reg, size_t offset, size_t size, typename AccessMode, typename BaseType> 
-struct NVIC_STIR_STIR_INTID_Values: public RegisterField<Reg, offset, size, AccessMode> 
-{
-} ;
+template <typename Reg, size_t offset, size_t size, typename AccessMode, typename BaseType>
+struct NVIC_STIR_STIR_INTID_Values : public RegisterField<Reg, offset, size, AccessMode> {};
 
-#endif //#if !defined(NVICSTIRENUMS_HPP)
+#endif  // #if !defined(NVICSTIRENUMS_HPP)

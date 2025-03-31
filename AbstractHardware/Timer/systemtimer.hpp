@@ -5,18 +5,16 @@
 #ifndef REGISTERS_SYSTEMTIMER_HPP
 #define REGISTERS_SYSTEMTIMER_HPP
 
-template <typename ...Timers>
-class RtosTimerService
-{
-public:
-  static void OnSystemTick()
-  {
-    tRtos::IsrEntry() ;
+template <typename... Timers>
+class RtosTimerService {
+ public:
+  static void OnSystemTick() {
+    tRtos::IsrEntry();
 
-    (Timers::OnTick(),...) ;
+    (Timers::OnTick(), ...);
 
-    tRtos::IsrExit() ;
+    tRtos::IsrExit();
   }
-} ;
+};
 
-#endif //REGISTERS_SYSTEMTIMER_HPP
+#endif  // REGISTERS_SYSTEMTIMER_HPP

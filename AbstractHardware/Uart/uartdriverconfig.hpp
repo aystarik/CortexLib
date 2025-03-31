@@ -5,8 +5,9 @@
 #ifndef REGISTERS_UARTDRIVERCONFIG_HPP
 #define REGISTERS_UARTDRIVERCONFIG_HPP
 
-#include <array> // for array
+#include <array>  // for array
+#include <cstdint>
 
-using tBuffer = std::array<std::uint8_t, 100> ;
+using tBuffer = std::array<std::uint8_t, 100>;
 
-#endif //REGISTERS_UARTDRIVERCONFIG_HPP
+#endif  // REGISTERS_UARTDRIVERCONFIG_HPP

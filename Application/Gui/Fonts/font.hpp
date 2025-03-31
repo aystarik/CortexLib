@@ -7,11 +7,10 @@
 
 #include <cstdint>
 
-struct Font
-{
+struct Font {
   const std::uint8_t *table;
   std::uint16_t Width;
   std::uint16_t Height;
-} ;
+};
 
-#endif //REGISTERS_FONT_HPP
+#endif  // REGISTERS_FONT_HPP
